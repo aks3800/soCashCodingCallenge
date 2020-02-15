@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		022EDB4E23F7BEF4008DC05F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EDB4D23F7BEF4008DC05F /* main.swift */; };
+		022EDB5623F7C6A6008DC05F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EDB5523F7C6A6008DC05F /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		022EDB4A23F7BEF4008DC05F /* soCashCodingCallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = soCashCodingCallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		022EDB4D23F7BEF4008DC05F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		022EDB5523F7C6A6008DC05F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		022EDB4C23F7BEF4008DC05F /* soCashCodingCallenge */ = {
 			isa = PBXGroup;
 			children = (
+				022EDB5423F7C66F008DC05F /* Card */,
 				022EDB4D23F7BEF4008DC05F /* main.swift */,
 			);
 			path = soCashCodingCallenge;
+			sourceTree = "<group>";
+		};
+		022EDB5423F7C66F008DC05F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				022EDB5523F7C6A6008DC05F /* Card.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				022EDB4E23F7BEF4008DC05F /* main.swift in Sources */,
+				022EDB5623F7C6A6008DC05F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
