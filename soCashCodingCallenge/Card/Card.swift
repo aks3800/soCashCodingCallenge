@@ -35,3 +35,12 @@ struct Card {
     let suite: CardSuite
     let value: CardValue
 }
+
+enum CardSet: Int {
+    case trail = 1
+    case pure_sequence = 2
+    case sequence = 3
+    case color = 4
+    case pair = 5
+    case high_card = 6
+}
